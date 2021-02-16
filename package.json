@@ -1,0 +1,22 @@
+{
+  "name": "binks",
+  "version": "0.1.3",
+  "description": "An (opinionated) test runner for rspec & cucumber.",
+  "keywords": [
+    "rspec",
+    "cucumber",
+    "ruby",
+    "rails"
+  ],
+  "homepage": "https://github.com/CalvinWalzel/binks#readme",
+  "repository": "github:CalvinWalzel/binks",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "author": "Calvin Walzel <calvin@pixelhub.nl>",
+  "license": "MIT",
+  "dependencies": {
+    "fsmonitor": "^0.2.4"
+  }
+}
