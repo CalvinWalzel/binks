@@ -1,6 +1,6 @@
 {
   "name": "binks",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "An (opinionated) test runner for rspec & cucumber.",
   "keywords": [
     "rspec",
@@ -11,6 +11,9 @@
   "homepage": "https://github.com/CalvinWalzel/binks#readme",
   "repository": "github:CalvinWalzel/binks",
   "main": "index.js",
+  "bin": {
+    "binks": "./index.js"
+  },
   "scripts": {
     "start": "node ./index.js"
   },

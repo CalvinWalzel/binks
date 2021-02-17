@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const VERSION = require('./package.json').version
 
 const exec = require('child_process').exec
