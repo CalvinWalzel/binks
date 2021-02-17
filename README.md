@@ -2,6 +2,8 @@
 
 Binks is an (opinionated) test runner for rspec & cucumber.
 
+[![npm version](https://badge.fury.io/js/binks.svg)](https://badge.fury.io/js/binks)
+
 ## Usage
 
 ```bash
