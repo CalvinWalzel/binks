@@ -277,7 +277,7 @@ function executeCommand (command) {
 }
 
 function toTotalPath (filePath, relPath) {
-  return path.resolve(__dirname, relPath + filePath)
+  return path.resolve(process.cwd(), relPath + filePath)
 }
 
 function onExit (childProcess) {
